@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (4.8.0)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - FBSDKCoreKit (4.39.0):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.39.0):
+    - FBSDKCoreKit
+  - PullUpController (0.6.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - ChameleonFramework
+  - FBSDKLoginKit
+  - PullUpController
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Bolts
+    - ChameleonFramework
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - PullUpController
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  FBSDKCoreKit: 1e3981faefab8c88edfaa9eecd94aab02d99a9bc
+  FBSDKLoginKit: 30ba5039a2c53d65a75103889bc2deebdacd5a1f
+  PullUpController: 55d372633d55345a209add771458962abcdfbbf9
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 64fd753bb88f4492b0e7701a0ff15fac5e3ab326
+
+COCOAPODS: 1.5.3

@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6869512492B04EA5A953D4B6 /* Pods_Mint_Kitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5328EA9B7ECB92F4CC8EC9 /* Pods_Mint_Kitchen.framework */; };
+		FA71798321CC825F002CBBC2 /* RegisterationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71798221CC825F002CBBC2 /* RegisterationController.swift */; };
+		FA71798621CC9B1F002CBBC2 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71798421CC9B1F002CBBC2 /* RecipeCell.swift */; };
+		FA79EB9921CD00630089EC22 /* RecipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79EB9821CD00630089EC22 /* RecipeController.swift */; };
+		FA79EB9B21CE46A10089EC22 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79EB9A21CE46A10089EC22 /* Section.swift */; };
+		FA79EB9D21CE4A3B0089EC22 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79EB9C21CE4A3B0089EC22 /* ExpandableHeaderView.swift */; };
+		FA79EBDF21D5B5F40089EC22 /* Product.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA79EBDE21D5B5F40089EC22 /* Product.xib */; };
+		FA79EBE121D5E4CF0089EC22 /* recipeSample.png in Resources */ = {isa = PBXBuildFile; fileRef = FA79EBE021D5E4CE0089EC22 /* recipeSample.png */; };
+		FA79EBE321D5E8150089EC22 /* recipeBar30.png in Resources */ = {isa = PBXBuildFile; fileRef = FA79EBE221D5E8150089EC22 /* recipeBar30.png */; };
+		FA79EBE521D5EEA00089EC22 /* ordersBar30.png in Resources */ = {isa = PBXBuildFile; fileRef = FA79EBE421D5EEA00089EC22 /* ordersBar30.png */; };
+		FA79EBE721D5EFFC0089EC22 /* basketBar30.png in Resources */ = {isa = PBXBuildFile; fileRef = FA79EBE621D5EFFC0089EC22 /* basketBar30.png */; };
+		FA79EBE921D5F0490089EC22 /* moreBar30.png in Resources */ = {isa = PBXBuildFile; fileRef = FA79EBE821D5F0480089EC22 /* moreBar30.png */; };
+		FA79EBEB21D642280089EC22 /* nonveg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA79EBEA21D642280089EC22 /* nonveg.jpg */; };
+		FA79EBED21D644040089EC22 /* OrdersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79EBEC21D644030089EC22 /* OrdersController.swift */; };
+		FA79EBEF21D6443D0089EC22 /* BasketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79EBEE21D6443D0089EC22 /* BasketController.swift */; };
+		FA79EBF121D68B330089EC22 /* AddReduceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79EBF021D68B330089EC22 /* AddReduceController.swift */; };
 		FA85F20A21C9F76D00240DA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85F20921C9F76D00240DA1 /* AppDelegate.swift */; };
 		FA85F20C21C9F76D00240DA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85F20B21C9F76D00240DA1 /* ViewController.swift */; };
 		FA85F20F21C9F76D00240DA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA85F20D21C9F76D00240DA1 /* Main.storyboard */; };
@@ -14,6 +30,7 @@
 		FA85F21421C9F76E00240DA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA85F21221C9F76E00240DA1 /* LaunchScreen.storyboard */; };
 		FA85F21F21C9F76E00240DA1 /* Mint_KitchenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85F21E21C9F76E00240DA1 /* Mint_KitchenTests.swift */; };
 		FA85F22A21C9F76E00240DA1 /* Mint_KitchenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85F22921C9F76E00240DA1 /* Mint_KitchenUITests.swift */; };
+		FA91F49421D74F4F007D4BB9 /* CounterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91F49321D74F4F007D4BB9 /* CounterController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31D299D194AF8333D66DC0C7 /* Pods-Mint Kitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mint Kitchen.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mint Kitchen/Pods-Mint Kitchen.release.xcconfig"; sourceTree = "<group>"; };
+		4310CFD70504000A5B77DE07 /* Pods-Mint Kitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mint Kitchen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mint Kitchen/Pods-Mint Kitchen.debug.xcconfig"; sourceTree = "<group>"; };
+		EE5328EA9B7ECB92F4CC8EC9 /* Pods_Mint_Kitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mint_Kitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4FB6F121CA1C1A0050AF7C /* Mint Kitchen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mint Kitchen.entitlements"; sourceTree = "<group>"; };
+		FA71798221CC825F002CBBC2 /* RegisterationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterationController.swift; sourceTree = "<group>"; };
+		FA71798421CC9B1F002CBBC2 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		FA79EB9821CD00630089EC22 /* RecipeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeController.swift; sourceTree = "<group>"; };
+		FA79EB9A21CE46A10089EC22 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		FA79EB9C21CE4A3B0089EC22 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
+		FA79EBDE21D5B5F40089EC22 /* Product.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Product.xib; sourceTree = "<group>"; };
+		FA79EBE021D5E4CE0089EC22 /* recipeSample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipeSample.png; sourceTree = "<group>"; };
+		FA79EBE221D5E8150089EC22 /* recipeBar30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipeBar30.png; sourceTree = "<group>"; };
+		FA79EBE421D5EEA00089EC22 /* ordersBar30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ordersBar30.png; sourceTree = "<group>"; };
+		FA79EBE621D5EFFC0089EC22 /* basketBar30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketBar30.png; sourceTree = "<group>"; };
+		FA79EBE821D5F0480089EC22 /* moreBar30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moreBar30.png; sourceTree = "<group>"; };
+		FA79EBEA21D642280089EC22 /* nonveg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nonveg.jpg; sourceTree = "<group>"; };
+		FA79EBEC21D644030089EC22 /* OrdersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersController.swift; sourceTree = "<group>"; };
+		FA79EBEE21D6443D0089EC22 /* BasketController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketController.swift; sourceTree = "<group>"; };
+		FA79EBF021D68B330089EC22 /* AddReduceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReduceController.swift; sourceTree = "<group>"; };
 		FA85F20621C9F76D00240DA1 /* Mint Kitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mint Kitchen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA85F20921C9F76D00240DA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA85F20B21C9F76D00240DA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +83,7 @@
 		FA85F22521C9F76E00240DA1 /* Mint KitchenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mint KitchenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA85F22921C9F76E00240DA1 /* Mint_KitchenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mint_KitchenUITests.swift; sourceTree = "<group>"; };
 		FA85F22B21C9F76E00240DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA91F49321D74F4F007D4BB9 /* CounterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6869512492B04EA5A953D4B6 /* Pods_Mint_Kitchen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +112,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		302A84E81E7D3A5B20F24B9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE5328EA9B7ECB92F4CC8EC9 /* Pods_Mint_Kitchen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C106BC697C57928DBB0F2F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4310CFD70504000A5B77DE07 /* Pods-Mint Kitchen.debug.xcconfig */,
+				31D299D194AF8333D66DC0C7 /* Pods-Mint Kitchen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FA85F1FD21C9F76D00240DA1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +136,8 @@
 				FA85F21D21C9F76E00240DA1 /* Mint KitchenTests */,
 				FA85F22821C9F76E00240DA1 /* Mint KitchenUITests */,
 				FA85F20721C9F76D00240DA1 /* Products */,
+				3C106BC697C57928DBB0F2F5 /* Pods */,
+				302A84E81E7D3A5B20F24B9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +156,27 @@
 			children = (
 				FA85F20921C9F76D00240DA1 /* AppDelegate.swift */,
 				FA85F20B21C9F76D00240DA1 /* ViewController.swift */,
+				FA71798221CC825F002CBBC2 /* RegisterationController.swift */,
+				FA79EB9821CD00630089EC22 /* RecipeController.swift */,
+				FA91F49321D74F4F007D4BB9 /* CounterController.swift */,
+				FA71798421CC9B1F002CBBC2 /* RecipeCell.swift */,
+				FA79EB9A21CE46A10089EC22 /* Section.swift */,
+				FA79EB9C21CE4A3B0089EC22 /* ExpandableHeaderView.swift */,
+				FA79EBEC21D644030089EC22 /* OrdersController.swift */,
+				FA79EBEE21D6443D0089EC22 /* BasketController.swift */,
+				FA79EBF021D68B330089EC22 /* AddReduceController.swift */,
+				FA79EBDE21D5B5F40089EC22 /* Product.xib */,
 				FA85F20D21C9F76D00240DA1 /* Main.storyboard */,
 				FA85F21021C9F76E00240DA1 /* Assets.xcassets */,
 				FA85F21221C9F76E00240DA1 /* LaunchScreen.storyboard */,
 				FA85F21521C9F76E00240DA1 /* Info.plist */,
+				FA4FB6F121CA1C1A0050AF7C /* Mint Kitchen.entitlements */,
+				FA79EBE021D5E4CE0089EC22 /* recipeSample.png */,
+				FA79EBE221D5E8150089EC22 /* recipeBar30.png */,
+				FA79EBE421D5EEA00089EC22 /* ordersBar30.png */,
+				FA79EBE621D5EFFC0089EC22 /* basketBar30.png */,
+				FA79EBE821D5F0480089EC22 /* moreBar30.png */,
+				FA79EBEA21D642280089EC22 /* nonveg.jpg */,
 			);
 			path = "Mint Kitchen";
 			sourceTree = "<group>";
@@ -132,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA85F22E21C9F76E00240DA1 /* Build configuration list for PBXNativeTarget "Mint Kitchen" */;
 			buildPhases = (
+				A6B6CF267D8A93F35C158E7A /* [CP] Check Pods Manifest.lock */,
 				FA85F20221C9F76D00240DA1 /* Sources */,
 				FA85F20321C9F76D00240DA1 /* Frameworks */,
 				FA85F20421C9F76D00240DA1 /* Resources */,
+				84F5B570844ADAC54276E0BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +269,11 @@
 				TargetAttributes = {
 					FA85F20521C9F76D00240DA1 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					FA85F21921C9F76E00240DA1 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -229,7 +310,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA79EBE321D5E8150089EC22 /* recipeBar30.png in Resources */,
 				FA85F21421C9F76E00240DA1 /* LaunchScreen.storyboard in Resources */,
+				FA79EBDF21D5B5F40089EC22 /* Product.xib in Resources */,
+				FA79EBE121D5E4CF0089EC22 /* recipeSample.png in Resources */,
+				FA79EBE721D5EFFC0089EC22 /* basketBar30.png in Resources */,
+				FA79EBE921D5F0490089EC22 /* moreBar30.png in Resources */,
+				FA79EBEB21D642280089EC22 /* nonveg.jpg in Resources */,
+				FA79EBE521D5EEA00089EC22 /* ordersBar30.png in Resources */,
 				FA85F21121C9F76E00240DA1 /* Assets.xcassets in Resources */,
 				FA85F20F21C9F76D00240DA1 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +339,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		84F5B570844ADAC54276E0BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mint Kitchen/Pods-Mint Kitchen-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/PullUpController/PullUpController.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PullUpController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mint Kitchen/Pods-Mint Kitchen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6B6CF267D8A93F35C158E7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mint Kitchen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA85F20221C9F76D00240DA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA79EBEF21D6443D0089EC22 /* BasketController.swift in Sources */,
+				FA71798321CC825F002CBBC2 /* RegisterationController.swift in Sources */,
+				FA91F49421D74F4F007D4BB9 /* CounterController.swift in Sources */,
+				FA79EB9D21CE4A3B0089EC22 /* ExpandableHeaderView.swift in Sources */,
 				FA85F20C21C9F76D00240DA1 /* ViewController.swift in Sources */,
 				FA85F20A21C9F76D00240DA1 /* AppDelegate.swift in Sources */,
+				FA79EBED21D644040089EC22 /* OrdersController.swift in Sources */,
+				FA79EB9B21CE46A10089EC22 /* Section.swift in Sources */,
+				FA79EBF121D68B330089EC22 /* AddReduceController.swift in Sources */,
+				FA79EB9921CD00630089EC22 /* RecipeController.swift in Sources */,
+				FA71798621CC9B1F002CBBC2 /* RecipeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,14 +576,33 @@
 		};
 		FA85F22F21C9F76E00240DA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4310CFD70504000A5B77DE07 /* Pods-Mint Kitchen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Mint Kitchen/Mint Kitchen.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QLGU5W3565;
 				INFOPLIST_FILE = "Mint Kitchen/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"ChameleonFramework\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-objC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.astro.Mint-Kitchen";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,14 +613,33 @@
 		};
 		FA85F23021C9F76E00240DA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31D299D194AF8333D66DC0C7 /* Pods-Mint Kitchen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Mint Kitchen/Mint Kitchen.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QLGU5W3565;
 				INFOPLIST_FILE = "Mint Kitchen/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"ChameleonFramework\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-objC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.astro.Mint-Kitchen";
 				PRODUCT_NAME = "$(TARGET_NAME)";
